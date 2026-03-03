@@ -1,0 +1,20 @@
+# requirements.txt — Bio-Analyst Agent
+# HOW TO INSTALL:
+#   pip install -r requirements.txt
+
+# CrewAI 0.63.6 — stable LangChain-native version; no LiteLLM or OpenAI key needed
+crewai==0.63.6
+
+# LangChain Community — provides ChatOllama compatible with crewai 0.63.6
+langchain-community
+
+# Biopython — NCBI access + sequence analysis
+biopython>=1.83
+
+# Pandas — data handling
+pandas>=2.0.0
+
+# Pydantic — data validation (required by CrewAI tools)
+pydantic>=2.0.0
+
+setuptools<70.0.0
